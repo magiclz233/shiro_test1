@@ -5,14 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.cnpc</groupId>
-  <artifactId>shiro-test</artifactId>
+  <artifactId>shiro_web</artifactId>
   <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>shiro_test</module>
-    </modules>
-    <packaging>pom</packaging>
+  <packaging>war</packaging>
 
-  <name>shiro-test Maven Webapp</name>
+  <name>shiro_web Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -24,29 +21,15 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.apache.shiro</groupId>
-      <artifactId>shiro-core</artifactId>
-      <version>1.4.0</version>
-    </dependency>
-    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
-    </dependency>
-    <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.45</version>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba</groupId>
-      <artifactId>druid</artifactId>
-      <version>1.1.6</version>
+      <version>4.11</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 
   <build>
-    <finalName>shiro-test</finalName>
+    <finalName>shiro_web</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
